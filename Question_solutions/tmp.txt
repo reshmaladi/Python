@@ -1,0 +1,31 @@
+Class Student:
+	def __init__(self, name):
+		self.name = name
+	def change_name(self, name)
+		self.name= name
+	
+
+s = student()
+print(s.get_name())
+
+
+Vending machine
+1. all components 
+2. Power on 
+3. Buttons working 
+4. other functions apart from serving coffee 
+5. 
+
+Negative
+No coffee beans still trying to get coffee
+no water and trying to get coffee
+
+Performance
+1. Pressing button multiple time  
+2. no. of coffee it makes ?
+3. 
+
+
+
+
+

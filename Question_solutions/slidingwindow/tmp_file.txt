@@ -1,0 +1,10 @@
+My name is Reshma
+reshma likes python programming
+
+my = 1
+name =1
+
+## 
+list of string : "
+
+
