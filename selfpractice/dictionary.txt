@@ -1,0 +1,75 @@
+Dictionary :
+
+Keys must be immutable. Which means you can use strings, numbers or tuples as dictionary keys but a list is not allowed Values are mutable
+creating dictionary
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dict = {}
+d1 = dict()
+
+Adding element to dictionary
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dict[0] = 'Geeks'
+dict['one'] = 2, 3, 4
+
+Updating existing Key's Value
+Dict[2] = 'Welcome'
+
+Accessing elements
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+Dict['name']
+Dict[1]
+Dict.get(3)
+
+Removing Elements
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+using del keyword
+del Dict[3]
+
+Using pop() >>>>used to return and delete the value of the key specified
+
+pop_ele = Dict.pop(1)
+Value associated to poped key is: Geeks
+
+Using popitem() method  >>>> returns and removes an arbitrary element (key, value) pair from the dictionary
+pop_ele = Dict.popitem()
+The arbitrary pair returned is: (1, 'Geeks')
+
+Using clear() method >>>>All the items from a dictionary can be deleted at once by using clear() method.
+Dict.clear()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+len() :- It returns the count of key entities of the dictionary elements
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+copy() :- This function creates the shallow copy of the dictionary into other dictionary.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dic = { 'Name' : 'Nandini', 'Age' : 19 }
+print (dic.items())
+
+		dict_items([('Name', 'Nandini'), ('Age', 19)])
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fromkeys(seq,value) :- This method is used to declare a new dictionary from the sequence mentioned in its arguments. This function can also initialize the declared dictionary with “value” argument.
+sequ = ('Name', 'Age', 'ID')
+dict = dict.fromkeys(sequ,5)
+
+		{'Age': 5, 'Name': 5, 'ID': 5}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+update(dic) :- This function is used to update the dictionary to add other dictionary keys.
+dic1 = { 'Name' : 'Nandini', 'Age' : 19 }
+dic2 = { 'ID' : 2541997 }
+dic1.update(dic2)
+
+		{'Age': 19, 'Name': 'Nandini', 'ID': 2541997}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+has_key() :- This function returns true if specified key is present in the dictionary, else returns false.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+get(key, def_val) :- This function return the key value associated with the key mentioned in arguments. If key is not present, the default value is returned.
+
+dict = { 'Name' : 'Nandini', 'Age' : 19 }
+print (dict.get('ID', "Not Present"))
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+setdefault(key, def_value) :- This function also searches for a key and displays its value like get() but, it creates new key with def_value if key is not present.
+
+dict = { 'Name' : 'Nandini', 'Age' : 19 }
+print (dict.setdefault('ID', "No ID"))
+
+		{'Name': 'Nandini', 'Age': 19, 'ID': 'No ID'}
