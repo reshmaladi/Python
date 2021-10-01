@@ -1,0 +1,35 @@
+
+>>> fd.fileno()
+3
+
+By default number of files open when file handles get created.
+
+open("a.txt", "r")
+
+Algorithms which gets executed  
+namei = gets inode
+
+iget >>taking that inode from disk to ram (metadata takes to ram)
+
+uarea area ,user file discrptor j0
+
+
+
+dup
+moris jgorge 
+advance progrming in unix envirment by w richard 
+
+print its statictical info like type of file, size , permisions
+accept filename from userand number of lines to copy to another file 
+
+read agrparse
+
+to accpet foldername from user and create zip file out of it . import shutil 
+
+module:
+	fileinput
+	filecpm
+	tempfile
+
+
+

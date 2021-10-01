@@ -1,0 +1,5 @@
+
+
+https://54.244.65.128/cloudpoint/api/v3//agents/
+{u'status': u'online', u'hostname': u'ip-172-31-45-61.us-west-2.compute.internal', u'osName': u'linux', u'lastMessage': 1548233139, u'onHost': True, u'agentid': u'agent.67ab525222914e93bdfd1663bdb48c69'}
+online

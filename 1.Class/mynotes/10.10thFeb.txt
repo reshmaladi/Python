@@ -1,0 +1,29 @@
+
+Menu driven program for all bitwise programs
+create menu driven program for all patterns 
+
+Write a program to add two numbers without using arithmetic operator 
+	hint: OR and shift
+	AND >> shift >> OR
+	
+#program lanaguage prgagmatics by michal scote
+stack frame for 169 91 
+stack frame for 128 24 /96
+
+#prolog , epilog
+
+recursion program 
+	Direct.  A callB
+	Indirect. A calls B and B calls A 
+
+write a recursive program to find factorial of number 
+
+Write a recursive program to find length of a string 
+write a recursive program to extract digits from the string 
+j7b988india1 >> output : 79881
+
+program to count number of 1 bits in it outwiout using arthematic op
+
+
+
+

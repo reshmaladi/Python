@@ -1,0 +1,35 @@
+
+12Jan
+=========================
+
+>>> s= "bubble"
+>>> s[0] + s[1:].replace(s[0],'*')
+'bu**le'
+
+Write a program to accept string from user and jumble in such a way that from the begning alternate characters from beging part and second part contains remaining part of characters
+
+Input >>Jeetendra 
+Output >> jeedaetnr
+
+
+>>> s[-1::-2] + s[-2::-2]
+'adeejrnte'
+
+>>> s[-1::-2] + s[-2::-2]
+'adeejrnte'
+
+
+================================================
+13th Jan homework
+
+Revise all lecture
+presentaion number 2
+
+1. Write a program to accept string from user and check if is starts with capital T  >> startswith , name[0] ='t'
+2. Write a program to accept two strings from user and check if second string is rotation of first 
+Ex. first string > Manager  
+    second string > germana 
+
+  >> concat both strings  
+3. write a program to accept string from user and convert it in lower case, upper case  >> isupper , islower
+

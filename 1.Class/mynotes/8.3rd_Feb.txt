@@ -1,0 +1,102 @@
+Write a function which will write 2 number , 3, or 4 numbers , 5 number
+#!C:\Python34
+def add(a, b, c=0, d=0, e=0):
+	return a+b+c+d+e
+	
+	
+def multi(a, b, c=1, d=1, e=1):
+	return a*b*c*d*e
+	
+def main():
+	print (add(2,3))
+	print (add(2,3,4))
+	print (add(2,3,4,5))
+	print (add(2,3,4,5,6))
+
+	print (multi(2,3))
+	print (multi(2,3,4))
+	print (multi(2,3,4,5))
+	print (multi(2,3,4,5,6))
+if __name__=="__main__":
+	main()
+
+variable number f=of arguments
+how to implement own printf?
+
+def add (*args):
+	print (type(args))
+	print (Args)
+	
+	
+Mind map diagram for functions
+positional , defualt , variable , variable dictionary
+
+Write a program to check weather given number is even or add without using arthmetic operator 
+
+on add
+off even 
+
+Write a program to accept string from user and print counts of consonants of it.
+
+
+Write a program to accept number and its bit number to trun off from the given number . Print number in decimal after it.
+Ex. input =16 
+bit postion is 5
+10000
+
+Write a program to accept number from user and check if it is divisible by 8 without using arithmetic operators
+
+write a program to accept number from user and number of bits to turn on from given position 
+OR  only shift 
+
+
+accept string which has repetative characters consecutively and optimise the storage space for the same 
+aaaabbccccddddaa  to a4b2c4d3a2
+
+
+
+*******
+*** ***
+**   **
+*     *
+**   **
+*** ***
+*******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

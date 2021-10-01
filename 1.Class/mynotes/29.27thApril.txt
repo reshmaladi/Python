@@ -1,0 +1,1 @@
+which accept string via yield and returns upper case

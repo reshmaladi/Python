@@ -1,0 +1,54 @@
+to accept filename from user and print it line by line
+
+#!C:\Python34
+	
+def main():
+	fd = open("C:\\1.Class\\PracticeInClass\\Class16\\test.txt")
+	if fd != None:
+		line = fd.readline()
+		#print (line)
+		while line != "":
+			print (line)
+			line = fd.readline()
+		
+if __name__=="__main__":
+	main()
++++++++++++++++++++++++++++++++++++
+to accept filename from user and print those line who has less than equal to 80 characters also print line numbers which have more than 80 characters stating that lines has more than standard count of characters 
++++++++++++++++++++++++++++++++++++
+print smallest and longest line in file 
+
+#!C:\Python34
+	
+def main():
+	fd = open("C:\\1.Class\\PracticeInClass\\Class16\\test.txt")
+	if fd != None:
+		line = fd.readline()
+		minline = line
+		maxline = line
+		while line != "":
+			line = fd.readline()
+			if ( line =="\n" or line == ""):
+				continue
+			if len(line)> len(maxline):
+				maxline =line				
+			elif len(line) < len(minline):
+				minline =line
+		print ("Maximum Line = " , maxline, "\n minimum line =  " , minline)
+
+if __name__=="__main__":
+	main()
+
++++++++++++++++++++++++++++++++++++
+
+Home work: 
+	to accept filename from user and print those lines which have "the"  word more than once. (make is generic with words ")
+	to accept filename from user and print it in reverse order , line shd be readlines and read functions ,: recursion 
+	to accept configuration file from user and create dictionary of configurations defined in it 
+	to accept filename from user and print alternate 10 characters from it.  use seek , read 
+	use io.FileIO module for 3.X
+	
+	file open what steps when open is called 
+
+	
+	

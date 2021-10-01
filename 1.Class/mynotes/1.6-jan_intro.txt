@@ -1,0 +1,45 @@
+1. #/usr/bin/python >>> shebang 
+
+2. Coments in python:
+
+single line comment with >> #
+multiple line comment >> '''  '''  and """ """
+
+3. It is case sensitive language 
+4. At begining 4 space for indentation
+5. What exactly happens when we run program
+	.py compliled and convered to .pyc (byte code) >>PVM (python virtual machine) interpreted to run on actual machine.
+
+6.pep8 /pylint tools to check syntax error before runnning program
+7.
+Write a program to accept two numbers from user and perform following operations 
+	1. ADD 
+	2. Substract
+	3. multiply
+	4. Divid 
+	5. Exponetial 
+	
+Write a program to accept name from user and greet the user with "Good monring" and corrusponding name. 
+
+
+https://www.guru99.com/python-map-function.html 
+https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python?#question15
+https://towardsdatascience.com/60-questions-to-test-your-knowledge-of-python-lists-cca0ebfa0582
+https://learnbatta.com/blog/python-working-with-tuple-data-type-41/
+https://www.educative.io/blog/python-interview-questions
+https://www.educba.com/dictionary-in-python/?source=leftnav
+
+https://sort.veritas.com/public/documents/sf/5.1/linux/html/sf_advanced_admin/ch02s01s01.htm
+
+https://stonefly.com/resources/what-is-storage-snapshot-technology/
+https://stonefly.com/resources/what-is-storage-snapshot-technology/
+https://www.oreilly.com/content/how-do-i-use-the-slice-notation-in-python/
+guru99.com/python-map-function.html
+
+https://confluence.community.veritas.com/pages/viewpage.action?spaceKey=NBUCP&title=ISM+Presentation+and+Videos
+https://www.softwaretestinghelp.com/unix-interview-questions/
+
+http://www.opslib.com/2014/08/linux-interview-questions-port-related.html
+https://www.youtube.com/watch?v=MFrwAUAv2hA&list=PLy9lUSQC5jNLU8LS9NghG7q5P20gDl-7I
+
+https://www.youtube.com/watch?v=MFrwAUAv2hA&list=PLy9lUSQC5jNLU8LS9NghG7q5P20gDl-7I

@@ -1,0 +1,89 @@
+Write a program to accept number from user and print it in simple word form.
+543  :: five four three
+mod and divid 
+
+
+Menu driven 
+
+def manu():
+	print ("Please enter the options from manu to perform operation,  5 to exit ")
+	choice = input ("Enter ur choice")
+	if (choice >0 && choice <6 )
+		return choice 
+
+
+def arthmeticopes():
+	choice =0 
+	while choice !=5 :
+		choice =menu()
+		# accept two numbers
+		if choice ==1 :
+		add ()
+		elif choice == 2:
+		sub()
+		elif choice == 3 :
+		divid 
+		
+for i in range(1 , rwo+1):
+	print "*" * i
+	
+		
+Write a program to print 
+			*
+		*	*
+	*	*	*
+*	*	*	*		
+
+
+#!C:\Python34
+
+def pattern2(n):
+	for i in (range(1, n+1)):
+		for _ in (range(1 , n-i+1)):	
+			print( " " , end = "" )
+		for _ in (range(1 , i+1)):
+			print ("*" , end = "")
+		print( "" , end = "\n" )
+		
+def main():
+	num  = int( input ("Enter the number "))
+	pattern2(num)
+
+
+if __name__=="__main__":
+	main()
+
+
+
+
+****
+ ***
+  **
+   *
+   
+****
+ ***
+  **
+   *
+   
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+   
+   A
+  BAB
+ CBABC
+DCBABCA
+
+*******
+*** ***
+**   **
+*     *
+   
+
+		
+Write a program for febonacii series 

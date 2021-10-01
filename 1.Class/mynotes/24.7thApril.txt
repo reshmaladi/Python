@@ -1,0 +1,13 @@
+Write a program to implement student management system.
+Class student 
+	student should have name address , DOB, course , division , list of marks
+getter and setter methods 
+shuld provide following metheod : add stuend , suspend student , update address , update marks , print all student details and thier percentage.
+
+
+write studentmanament, accept how many students 
+
+menu , accept choice 
+enrolll student,pdat esuspend stuent .i print all , printoonly enrolled, print suspended students , updae student details - address, division , couse, marks 
+write a program to implement employee mgmgt system 
+	employee , print name , awards ,salary , 

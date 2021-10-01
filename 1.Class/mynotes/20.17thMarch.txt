@@ -1,0 +1,9 @@
+use optparse instead of argparse
+
+to accept input file name and output file name and error file name from user using subprocess.popen insure that word count , character coutn and line count of input file are written to output file 
+status of currently running status 
+
+to accept a command to be executed on command line \command line argument , execute the command provided and print the output of the shell 
+
+
+wap to explore ps util moduele 

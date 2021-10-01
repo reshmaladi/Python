@@ -1,0 +1,30 @@
+Constructor : when initialization object
+___init__
+
+in java, C, name of function should be same as class name to craete 
+  
+
+disturctor : when destorying object
+ ___del__
+
+
+
+refrenace to calling object 
+
+class is also can be object 
+
+every object internally  is a dictionary 
+
+
+to implement complex number on your own 
+	Add two complex numbers
+	substarck two complex numbers
+	multiply coimplex number by integer 
+	
+complex menu driven 
+bank account class 
+	should support : deposite and withdrow methods 
+	u can auot generate account number by taking one class attribute
+
+regular experition 
+

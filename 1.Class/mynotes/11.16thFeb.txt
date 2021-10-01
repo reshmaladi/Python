@@ -1,0 +1,23 @@
+str[i]='j' is can not be done 
+
+str =str[:i] +'j'| str[i+1:]
+
+
+result = input_s [i] + str(count)
+
+
+Write a program to remove all occurrences of given data from the list
+Write a program to implement stack operations on list
+to demonstrate queue data structure with following interfaces
+	nqueue
+	dqueus 
+	isqueempty
+	isqueuefull
+
+
+to accept list of integers from user check if it is sorted or not
+
+accpet list of elements and sort it
+
+buble sort and insersion sort 
+

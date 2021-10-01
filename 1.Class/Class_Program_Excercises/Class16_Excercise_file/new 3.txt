@@ -1,0 +1,45 @@
+#!C:\Python34
+def main():
+	fd = open("C:\\1.Class\\Class_Program_Excercises\\Class16_Excercise\\audio.conf")	
+	
+	if fd != None:
+		line = fd.readline()
+		conf1= {}
+		conf ={}
+		while line != "":
+			
+			line = fd.readline()
+			if (line.startswith("#")  or line.startswith("\n")):
+				continue
+			else:
+				while (line.startswith("[")):
+					key1 = line.strip("[")
+					key1 = line.strip("]")
+					print ("key1" , key1)
+					line = fd.readline()
+					if ":"  in line: 
+					
+						key = line.rpartition(":")[0]
+						value = line.rpartition(":")[2]
+						value =value.strip("\n")
+						if "#" in value:
+							value = line.rpartition("#")[0]
+						print ("key: ", key ,"value", value)
+						conf.update({key : value})
+					elif "=" in line:
+					
+						key = line.rpartition("=")[0]
+						value = line.rpartition("=")[2]
+						value =value.strip("\n")
+						if "#" in value:
+							value = line.rpartition("#")[0]
+						print ("key: ", key ,"value", value)
+						conf.update({key : value})
+						
+					print ( "Dic of config is " ,conf)
+				
+				conf1.update({key1 : conf})
+		
+				
+if __name__=="__main__":
+	main()

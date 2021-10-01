@@ -1,0 +1,17 @@
+Homework:
+Library management 
+	books; add, queue 
+	subscriber : reminder, expiry 
+	manager : add book ,
+	register the request for book , remind for book, 
+Method resolution order
+	
+	
+	class simple :
+		def __call__(self):
+			print("Invoked")
+			
+			
+Not to be invoked by object : static method
+
+

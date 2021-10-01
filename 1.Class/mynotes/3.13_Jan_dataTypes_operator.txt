@@ -1,0 +1,160 @@
+data types: containers
+String >>> immutable
+list >>> Mutable
+tuple >>> immutable 
+set >>> unic elements : no duplicate >> 
+dictionary >> associative 
+
+=================
+
+operators
+
+Arity >>>  unary and binary >> how much operators it takes
+precedance  >>> which one to evaluate first  , priority >>BODMAS
+associaty >>> left to right or right to left 
+
+R to left 
+ -unary
+ -combinational  assignment
+
+or remaing are left to right
+=================
+Arthmetic operators 
+* + - % // **
+
+
+++a , a++ is not supported 
+>>> ++a
+10
+>>> a++
+  File "<stdin>", line 1
+    a++
+      ^
+SyntaxError: invalid syntax
+>>>
+++++++++++++++++++++++
+
+Floor division
+>>> 5//2
+2
+
+Exponesional 
+>>> 5**2
+25
+
+==================================================
+low precedance that arthmatic
+Relational > < , >=, <=, !=, == , <> (2.7)
+Logical  and , or, not ( in other languages  && , ||, ! )
+
+p	q	p and q		p OR q	 p XOR q  !p
+1	1	1		1	  0	   0	
+1	0	0		1	  1	   0
+0	1	0		1	  1	   1
+0	0	0		0	  0	   1
+
+!(p and q) && (p or q )
+(p and !q) or (!p and q)
+
+================================================
+
+membership operators  >>> in  , not in
+ will not work on interger , dictionary 
+>>> 5 in 15
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: argument of type 'int' is not iterable
+
+=========================================
+Identity
+>>> a=1000
+>>> b=a
+>>> c=1000
+>>> a==b
+True
+>>> b==c
+True
+>>> a is b
+True
+>>> b is c
+False
+
+it compares id . 
+
+============================================
+bitwise operators
+& - Turn off bit /bits
+ex.
+	0110110111
+	   AND
+	1111111001
+	------------
+	0110110001
+
+
+! - Trun on bit /bits
+
+	01001000101
+	   OR
+	00000111000
+	--------------
+	01001111101
+
+
+^  - Toggle bit /bits
+	0100101000
+	 XOR
+	0000111100	
+       -------------------
+	0100010100
+
+
+~ - bit inversion
+	00001010
+	-----------------
+	11110101
+
+
+
+<< - left shift ( multiplication by 2 power)
+10	00001010
+	<<1
+20	00010100
+	<<1
+40	00101000
+
+
+x=8		000000001000
+8 X 2 power 6   001000000000 >>512
+
+8 X 2 power 6 == 8 X 64 =512
+
+
+>> - right shift (division by 2 's power )
+msb stands for sign 
+- msb is 1
+
+
+how -5 will be saved then 
+
+ 00000101
+1s compliment 
+ 11111010
+2s compliment
+ 11111010
++00000001
+-------------
+ 11111011  >>> this is -5
+
+For negetive number >>arthmatic right shift   >>>  1 will be added to right 
+For positive number >>logical right shift     >>>  0 will be added to right 
+
+
+
+
+
+
+
+
+
+

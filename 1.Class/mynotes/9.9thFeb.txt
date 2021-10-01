@@ -1,0 +1,82 @@
+1 2
+2 4 8
+3 6 12 24
+4 8 16 32 64
+
+
+
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+4 3 2 1 *
+3 2 1 * *
+2 1 * * *
+1 * * * *
+* * * * *
+
+
+Home work
+1 2
+2 4 6
+3 6 9 12 
+4 8 12 16 20 
+
+
+check multiple of 512 or not without using arthamatic operator 
+
+to accept any 2s power and print its table up to 10 in binary 
+
+write a program to accept bit position and no of bits to toggle from the given position
+
+accept noumber from user and turn off right most one bit 
+
+'''
+0	00000000
+1	00000001
+2	00000010
+3	00000011
+4	00000100
+5	00000101
+6	00000110
+7	00000111
+8	00001000
+9	00001001
+10	00001010
+
+
+
+
+
+
+
+
+def count
+
+count =0 
+while (no !=0):
+	count +=1
+	no = no & (no-1)
+ return count 
+
+
+
+Write a program to accept noumber from user and count noumber of 0 in it 
+write a program to accept two numbers from user , accept number of bit and bit position and swap currsponding bits of both numbers from current position
+Ex. 
+001001100
+001101101
+
+1. get x_part and y_part  by adding 0000111000  and  ~
+2. Turn off respective bits from both numbers 
+3. x! y_part , y ! x_part
+
+
+write a program to count noumber of 1 bits in given number 
+ 

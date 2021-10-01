@@ -1,0 +1,13 @@
+accept filename from user and print all the words staring with small or capital "t" and ending in "t"or "T"
+
+Home work :
+	accept filename from user and print all verbs in it 
+	accept filename from user and print all words having end in between
+
+to accept filename from user and print all digits from it 
+accept filename from user and delete comment from user : 
+
+to accept filename from user and print all the words starting with captital letters
+
+
+Write a program to accept list of numbers from users and write a generator to return prime numbers form the list 

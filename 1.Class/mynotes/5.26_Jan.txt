@@ -1,0 +1,155 @@
+Accept two strings and 
+
+srt1= input("enter string")
+str2= input( "enter second string")
+str1_part= str[:2]
+str2_part= str[:2]
+str1= str2_part + str1_part[:2]
+str2= str1_part + str2_part[:2]
+
+enumaration control : for loop
+control : while and do_ while 
+
+for <loop_variable> in <iterable_container> :
+	<body for loop>
+	
+for x in range(10):
+	print (x)
+
+for x in range(10):
+	print (x)
+for x in "india":
+	print (x)
+	
+do nothing loops\ time delay loops
+c syntax:
+for (i =0; i<10000 ; i++);
+
+Python  syntax
+for _ in range (10000):
+  pass
+  
+_ is anonimous variable 
+
+
+Write a program to accept integer from user and prints its table 
+
+for x in range (1,11):
+  print (x * 2)
+  
+  
+ 
+Range is written as  range (10) the it act as end index
+ but if we write as range(1, 10); 1 is start index , 10 is end index 
+ range(1,10,2); 2 is stepping stage 
+  
+program to integer from user and print table from 2 to n 
+
+no =  eval(input ("enter use from n "))
+for x in range(2,no+1):
+	for y in range(1,11):
+		print (x  * y)
+
+
+while contract
+
+while <condition>:
+ <body>
+
+pre test 
+post test 
+mid test 
+
+
+***************
+Jump statements 
+- break 
+- return  : breaks current iteration
+- continue : Skip current iteration
+
+Break
+
+while True:
+	i =eval (input( "Enter"))
+	if i == 10:
+	 break 
+	 print (i)
+	 
+Odd printing
+i=0
+while i<10:
+ if(i%2==0):
+    i+=1
+    continue
+ print (i)
+ i+=1
+ =====================
+ Program 1:
+ while True:
+	i =eval (input( "Enter"))
+	if i == 10:
+	 break 
+	 print (i)
+else: 
+	print("executed else")
+Program 2:
+i=0
+while i<10:
+ if(i%2==0):
+    i+=1
+    continue
+    print (" not print")
+ print (i)
+ i+=1
+else:
+ print("Executed else ")
+ 
+ in second program else part is getting printed
+ if logical break is there else part 
+else part can be applied to for loop too .
+
+Write a program to accept number from user and find its factorial 
+no =  eval(input ("enter use from n "))
+#for i in range (no):
+fact=1
+for x in range (1, no+1):
+	fact =fact* x
+	print (fact)
+
+
++++++++++++++++++++++++++++++++++++++++
+Function
+
+starts with " def"	
+
+
+if (no==1):
+	print (no)
+	break
+if (no ==0):
+	print (no)
+	break
+	
+	
+Factorial program	
+	def factorial(no):
+	fact=1
+	for x in range (1, no+1):
+		fact =fact* x
+	return fact
+		
+#no =  eval(input ("enter use from n "))
+f= factorial(5)
+print (f)
+ 
+
+
+
+  
+  
+  
+  
+  
+  
+
+

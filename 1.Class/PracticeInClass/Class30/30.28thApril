@@ -1,0 +1,4 @@
+Write program to fetch information about current share prize of given company name
+
+googlefinance 
+urllib2

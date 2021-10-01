@@ -1,0 +1,4 @@
+accept from user and Print if emial id is valid or not 
+
+Home work : To read file from user and print all emial ids in it.
+refine this for email id regular expression

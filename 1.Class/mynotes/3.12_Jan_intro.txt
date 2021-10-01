@@ -1,0 +1,127 @@
+compile code>>
+
+tokenization
+syntax analysis
+semantec analysis 
+intermidiate code
+code optimizaton
+target code
+========================================
+compile >> all code >> all code will interprepted at a time 
+
+interpreted >> line by line >>> on the fly
+
+python is high level language , dynamically typed 
+static typed >> c, C++
+
+high level
+middle level
+low level 
+aseembly 
+binary
+hardware
+==========================
+Value model 
+
+add(a, b)
+
+int  add(x, y)
+{
+return x +y;
+}
+
+===============================
+refrence model >> java , python 
+
+addref( $a, &b)
+int addref(int *x , int *y)
+{
+ return *x + *y;
+}
+==============================
+
+primitive type 
+container type 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+String>
+
+- Same address will be managed for range -5 to 256 
+- 10 is string termination characters
+- negetive indexing 
+- its immutable 
+
+>>> inst ="Trishna Solutions"
+>>> inst [4]
+'h'
+>>> inst [4] = 'j'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+===================================
+Slicing
+
+[[<strat_index>]: [<end_index>] [:<step_value>]]
+
+inclusive 	exclusive	always 1
+
+>>> inst ="Trishna Solutions"
+>>> inst [4]
+'h'
+>>> inst [4] = 'j'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+================================
+Write a program to get actual domain name 
+Ex. www.google.com >> google 
+
+
+help str 
+
+write a program to accept string from user and replace all occurances of first character with * in the remaining part of string 
+
+babble >> ba**le
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

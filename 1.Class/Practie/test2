@@ -1,0 +1,3 @@
+#!C:\Python34
+a  = eval(input ("Enter the sentence "))
+

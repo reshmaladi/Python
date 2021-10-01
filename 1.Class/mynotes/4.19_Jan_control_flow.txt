@@ -1,0 +1,67 @@
+Control Flow
+===============================================
+- sequence of flow
+- selection : if  else
+	Syntax:
+	if <condition>:
+	    <body of if >
+- 
+
+In CPP code
+if (x >10)
+	printf ("hello")
+	if(y>20)
+		printf ("its a catch")
+else 
+	printf("caught")
+	
+x=11 y=10
+x=11 y=21
+x=9 y=10
+x=9 y=21
+
+hello
+hello > its a catch
+cougth
+hello > its a catch
+
+
+if <condition>: print "caught"
+	<body>
+elif <condition>:
+	<body>
+else:
+	<body>
+ 
+ md
+ 
+ 
+write a program to accept two numbers and substract minimum from maximum and print result of substraction
+Write a program to accept three numbers and then print maximum
+
+
+Homework:
+write a program to accept three numbers and print minimum out of it 
+Rewrite the validation string rotation code with if else 
+
+
+Write a program to accept sentence from user and replace the "not bad" construct if found with "good".
+index and find 
+
+
+write a program to accept sring from user and perform varbing operations on it
+ length should be <= == to 3
+ add ing to its end if it is not present
+ if ending in ing , replace by ly  
+ if it is less than 3 , remain same
+
+ 
+ homework:
+ 
+ Write a program to accept number of donates if number of donates are greater than 10 then print " number of donates : many"
+	else if it is less than  10 "number of donates <number>"
+
+Write a program to accept string from user and return a string having first two and last two characters of input strings
+Ex. If input is "Spring" out SPNG
+
+
